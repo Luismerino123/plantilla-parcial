@@ -1,0 +1,24 @@
+.task-title {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+}
+
+.task-title.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.complete-btn {
+  background-color: #0f0f0f;
+  color: white;
+  margin-left: 5px;
+  padding: 5px 10px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complete-btn.completed {
+  background-color: #2e7d32;
+}
